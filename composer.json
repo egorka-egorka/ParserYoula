@@ -1,7 +1,6 @@
 {
 	"name": "egorka-egorka/donecparseryoula",
 	"description": "parsing youla",
-	"homepage": "localhost",
 	"type": "project",
 	"license": "Apache 2.0",
 	"minimum-stability": "dev",
