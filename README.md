@@ -1,5 +1,7 @@
 # Парсер от Барсика
 
+![alt text](https://uglybadger.com/wp-content/uploads/2017/11/UglyBadger-favicon.png)
+
 ## Описание
 Парсит объявления с Юлы
 
