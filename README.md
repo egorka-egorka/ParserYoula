@@ -14,6 +14,10 @@ composer create-project egorka-egorka/donecparseryoula -s dev
 
 В файле bd.php в строке 
 ```php
-R::setup('mysql:host=127.0.0.1;dbname=youlainf', 'root', '');
+R::setup('mysql:host=host_db;dbname=db_name', 'login', 'password');
 ```
-Необходимо указать подлинные данные для подключения к БД на вашем локальном устройстве!
+Необходимо указать подлинные данные для подключения к БД на вашем локальном устройстве, где:
+*host_db - адрес БД;
+*db_name - название БД (если ранее не была создана, то создайте пустую БД);
+*login - логин для доступа к БД
+*password - пароль для доступа к БД
