@@ -1,7 +1,7 @@
 <?php
 
 require_once ('./vendor/autoload.php');
-include ("D:\dev\g173116\SmatryTest\bd.php");
+require_once ("./bd.php");
 
 $smarty = new Smarty;
 $smarty->template_dir = 'templates/';
