@@ -17,7 +17,7 @@ composer create-project egorka-egorka/donecparseryoula -s dev
 R::setup('mysql:host=host_db;dbname=db_name', 'login', 'password');
 ```
 Необходимо указать подлинные данные для подключения к БД на вашем локальном устройстве, где:
-*host_db - адрес БД;
-*db_name - название БД (если ранее не была создана, то создайте пустую БД);
-*login - логин для доступа к БД
-*password - пароль для доступа к БД
+* host_db - адрес БД;
+* db_name - название БД (если ранее не была создана, то создайте пустую БД);
+* login - логин для доступа к БД
+* password - пароль для доступа к БД
